@@ -20,7 +20,7 @@ Jul 15 09:56:24 localhost yum[1177]: Updated: dbus-glib-0.86-6.el6.x86_64
 Jul 15 09:56:26 localhost yum[1177]: Updated: libxml2-2.7.6-12.el6_4.1.x86_64
 ```
 
-That command searched through /var/log/messages for every line that contains the text string `yum`.
+That command searched through `/var/log/messages` for every line that contains the text string `yum`.
 
 If no file is specified, you `grep` takes its input from STDIN:
 
