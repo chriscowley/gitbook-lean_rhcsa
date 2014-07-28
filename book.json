@@ -8,13 +8,29 @@
     "github": null,
     "githubHost": "https://github.com/",
 
-    "plugins": [],
+    "plugins": ["autocover"],
 
     "pluginsConfig": {
         "fontSettings": {
             "theme": "sepia", "night" or "white",
             "family": "serif" or "sans",
             "size": 1 to 4
+        }
+        "autocover": {
+            "title": "Lean RHCSA",
+            "author": "Chris Cowley
+            "font": {
+                "size": null,
+                "family": "Impact",
+                "color": '#FFF'
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": '#09F'
+            }
         }
     },
 
@@ -32,9 +48,8 @@
         },
 
         "sharing": {
-            "google": null,
-            "facebook": null,
-            "twitter": null
+            "google": https://www.google.com/+ChrisCowley,
+            "twitter": http://twitter.com/chriscowleyunix
         }
     },
 

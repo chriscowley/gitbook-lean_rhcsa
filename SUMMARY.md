@@ -2,18 +2,7 @@
 
 Studying for RHCSA
 
-* [Essential Tools](01-essential_tools/README.md)
-    * [Shell Prompt](01-essential_tools/shell_prompt.md)
-    * [IO Redirection](01-essential_tools/io_redirection.md)
-    * [Grep and Regular Expressions](01-essential_tools/grep_regexp.md)
-    * [Remote Access](01-essential_tools/remote_access.md)
-    * [Users and Runlevels](01-essential_tools/users_runlevels.md)
-    * [Archives](01-essential_tools/archives.md)
-    * [Text Files](01-essential_tools/text_files.md)
-    * [Manipulate Files](01-essential_tools/manipulate-files.md)
-    * [Hard and Soft Links](01-essential_tools/hard_soft_links.md)
-    * [Filesystem permissions](01-essential_tools/filesystem_permissions.md)
-    * [Locate and use system documentation](01-essential_tools/system_documentation.md)
+* [Essential Tools](book/01-essential_tools.md)
 * [Operate Running Systems](02-operate_running_systems/README.md)
     * Boot, reboot, and shut down a system normally.
     * Boot systems into different runlevels manually.
