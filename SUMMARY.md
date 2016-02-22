@@ -3,15 +3,7 @@
 Studying for RHCSA
 
 * [Essential Tools](book/01-essential_tools.md)
-* [Operate Running Systems](02-operate_running_systems/README.md)
-    * Boot, reboot, and shut down a system normally.
-    * Boot systems into different runlevels manually.
-    * Use single-user mode to gain access to a system.
-    * Identify CPU/memory intensive processes, adjust process priority with renice, and kill processes.
-    * Locate and interpret system log files.
-    * Access a virtual machine's console.
-    * Start and stop virtual machines.
-    * Start, stop, and check the status of network services.
+* [Operate Running Systems](book/02-operate_running_systems.md)
 * [Configure Local Storage](03-configure_local_storage/README.md)
     * List, create, delete, and set partition type for primary, extended, and logical partitions.
     * Create and remove physical volumes, assign physical volumes to volume groups, and create and delete logical Volumes.
