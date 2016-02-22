@@ -36,9 +36,30 @@ Bios boots Bootloader (GRUB2), boots kernel, boots init system (systemd), which 
 
 # Boot systems into different runlevels manually
 
+Back in the old (RHEL6 and earlier) RHEL had the concept of _Init levels_. These basically started different services depending on what you wanted:
+
+- 0: system off
+- 1: Single user
+- 2: Standard system with no network
+- 3: Standard system without a GUI
+- 5: Standard system with a GUI
+
+Now, `systemd` takes care of all that. From a running system you can run:
+
+- `systemctl rescue`: Single user, mount all the local file systems
+- `systemctl emergency`: Also single user, but only mount `/`
+- `systemctl isolate multi-user.target`: Standard system with no GUI
+- `systemctl isolate graphical.target`: Standard system with a GUI
+
+To get the current default level run `systemctl get-default`.
+
 
 
 # Use single-user mode to gain access to a system
+
+At the Grub menu you can boot into any run level by appending `systemd.unit=<target.name>`.
+
+
 
 # Identify CPU/memory intensive processes, adjust process priority with renice, and kill processes
 
